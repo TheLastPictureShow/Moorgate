@@ -1,0 +1,237 @@
+.section-about {
+    background-color: white;
+    padding: 25rem 0;
+    margin-top: -10vh;
+    margin-bottom: -5vh;
+
+    @include respond(tab-port) {
+        padding: 20rem 0;
+    }
+}
+
+.section-features {
+    padding: 25rem 0;
+    background-image:
+     // linear-gradient(
+     //    to right bottom,
+     //    rgba($color-primary-light, 0.8),
+     //    rgba($color-primary-dark, 0.8)),
+    url(../img/ma4.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    -webkit-transform: skewY(-7deg);
+    transform: skewY(-7deg);
+    margin-top: -10vh;
+    margin-bottom: -5vh;
+
+    & > * {
+        -webkit-transform: skewY(-7deg);
+        transform: skewY(7deg);
+    }
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
+}
+
+.section-review {
+background-color: white;
+padding: 25rem 0;
+// margin-top: 1rem;
+// margin-left: 50rem;
+
+& .process {
+  max-width: 570px;
+
+  & img {
+    width: 100%;
+  }
+}
+
+@include respond(tab-port) {
+    padding: 20rem 0;
+  }
+
+}
+
+.section-process {
+  background-color: white;
+  padding: 25rem 0;
+  margin-top: -10vh;
+  margin-bottom: -5vh;
+
+  & .process {
+    max-width: 570px;
+
+    & img {
+      width: 100%;
+    }
+  }
+
+  @include respond(tab-port) {
+      padding: 20rem 0;
+  }
+
+}
+
+// .section-graphs {
+//   background-color: $color-grey-light-1;
+//   padding: 25rem 0;
+//   margin-top: -10vh;
+//   margin-bottom: -5vh;
+//
+//   @include respond(tab-port) {
+//       padding: 20rem 0;
+//   }
+//
+// }
+
+.section-broker {
+    padding: 40rem 0;
+    background-image:
+     linear-gradient(
+         to right bottom,
+        rgba($color-primary-light, 0.7),
+        rgba($color-primary-dark, 0.7)),
+    url(../img/plenki.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    -webkit-transform: skewY(-7deg);
+    transform: skewY(-7deg);
+    margin-top: -10vh;
+    margin-bottom: -5vh;
+
+    & > * {
+        -webkit-transform: skewY(-7deg);
+        transform: skewY(7deg);
+    }
+
+    @include respond(tab-port) {
+        padding: 20rem 0;
+    }
+}
+
+.section-portfolio {
+    background-color: white;
+    padding: 25rem 0;
+    margin-top: -10vh;
+    margin-bottom: -5vh;
+
+    @include respond(tab-port) {
+        padding: 20rem 0;
+    }
+
+    & .row {
+      border-bottom: 1px solid black;
+    }
+
+    & .teaser {
+      max-width: 570px;
+      margin-bottom: 7rem;
+      box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
+    }
+
+    & img {
+      width: 80%;
+    }
+
+    & .paragraph {
+      padding-bottom: 3rem;
+      border-spacing: inherit;
+    }
+}
+
+
+.section-tab {
+    padding: 35rem 0;
+    background-image:
+     linear-gradient(
+        to right bottom,
+        rgba($color-red, 0.6),
+        rgba($color-red, 0.6)),
+    url(../img/tab2.png);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    -webkit-transform: skewY(-7deg);
+    transform: skewY(-7deg);
+    margin-top: -10vh;
+    margin-bottom: -5vh;
+
+    & > * {
+        -webkit-transform: skewY(-7deg);
+        transform: skewY(7deg);
+    }
+
+    @include respond(tab-port) {
+        padding: 20rem 0;
+    }
+}
+
+
+.section-trends {
+    background-color: white;
+    padding: 25rem 0;
+    margin-top: -10vh;
+    margin-bottom: -40vh;
+
+    & .paragraph {
+      border-bottom: 1px solid black;
+    }
+
+    & .paragraph:last-child {
+      border-bottom: 0px solid black;
+    }
+
+    @include respond(tab-port) {
+        padding: 20rem 0;
+    }
+}
+
+.section-choose {
+    background-color: white;
+    padding: 25rem 0;
+    margin-top: -40vh;
+    margin-bottom: -5vh;
+
+    @include respond(tab-port) {
+        padding: 20rem 0;
+    }
+}
+
+.section-resources {
+    background-color: white;
+    padding: 25rem 0;
+    margin-top: -40vh;
+    margin-bottom: -5vh;
+
+    @include respond(tab-port) {
+        padding: 20rem 0;
+    }
+}
+
+.img__rsc img {
+  width: 100%;
+}
+
+#logos {
+  margin-top: 9rem;
+}
+
+#h3links {
+  margin-top: 2rem;
+}
+
+.section-mgmt {
+    background-color: white;
+    position: relative;
+    padding: 15rem 0;
+    margin-top: -40vh;
+    margin-bottom: -5vh;
+
+  @include respond(tab-port) {
+        padding: 10rem 0;
+    }
+}

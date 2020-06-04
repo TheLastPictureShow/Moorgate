@@ -1,0 +1,76 @@
+.section-contact {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)),
+      url(../img/guy2.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    padding: 25rem 0;
+    margin-top: 5vh;
+    margin-bottom: -5vh;
+    border: 1px solid #ccc;
+
+
+    @include respond(tab-port) {
+        padding: 20rem 0;
+    }
+
+    & .heading-secondary {
+      color: white;
+    }
+
+    & .paragraph {
+      padding-bottom: 3rem;
+      border-bottom: 1px solid black;
+      border-spacing: inherit;
+    }
+
+}
+
+.contact-form {
+    width: 50%;
+    margin: 0 auto;
+
+    & .heading-tertiary {
+      color: white;
+    }
+
+    & .form-messages {
+      width: 70%;
+      margin: 0 auto;
+      padding: 10px;
+      border-radius: 3px;
+      margin-bottom: 20px;
+
+    }
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=submit] {
+    margin: 10px 5px 10px 0;
+    border-radius: 10px;
+    padding: 15px;
+    // background-color: skyblue;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {outline: none;}
